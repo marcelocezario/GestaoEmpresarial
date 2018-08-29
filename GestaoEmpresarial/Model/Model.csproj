@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cidade.cs" />
+    <Compile Include="DAL\Contexto.cs" />
+    <Compile Include="DAL\SeedDB.cs" />
     <Compile Include="Endereco.cs" />
     <Compile Include="Estado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

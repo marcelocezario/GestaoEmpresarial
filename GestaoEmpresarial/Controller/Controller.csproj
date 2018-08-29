@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CidadeController.cs" />
+    <Compile Include="ContextoSingleton.cs" />
     <Compile Include="EnderecoController.cs" />
     <Compile Include="EstadoController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,6 +56,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{64964A06-50BC-43E3-89B7-BB3F239442C3}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
